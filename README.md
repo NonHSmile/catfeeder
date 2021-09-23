@@ -13,41 +13,41 @@ Cat feeder
 ## File details
 catfeeder
 	|_____ MemberImages  
-			|_____ 6210500587_Apiwat_Sukthawornpradit.jpg     
-			|_____ 6210503748_Phakinee_Sirisukpoca.jpg  
-			|_____ 6210503888_Sirapat_Inchan.jpg  
-			|_____ 6210503896_Apichaya_Jarutikorn.jpg  
+	  		|_____ 6210500587_Apiwat_Sukthawornpradit.jpg     
+	  		|_____ 6210503748_Phakinee_Sirisukpoca.jpg  
+	  		|_____ 6210503888_Sirapat_Inchan.jpg  
+	  		|_____ 6210503896_Apichaya_Jarutikorn.jpg  
 	|_____ Project  
-			|_____ CatFeeder.pdf ( คำอธิบายเพิ่มเติม เกี่ยวกับอุปกรณ์ที่ใช้ต่างๆ และภาพรวมของชิ้นงาน )  
-			|_____ Schematic.jpg ( รูปภาพผังวงจรส่วนของ Hardware )  
+	  		|_____ CatFeeder.pdf ( คำอธิบายเพิ่มเติม เกี่ยวกับอุปกรณ์ที่ใช้ต่างๆ และภาพรวมของชิ้นงาน )  
+	  		|_____ Schematic.jpg ( รูปภาพผังวงจรส่วนของ Hardware )  
 	|_____ ProjectImages  
-			|_____ Hardware_1.jpg ( ภาพส่วนของ Hardware 1 )  
-			|_____ Hardware_2.jpg ( ภาพส่วนของ Hardware 2 )  
-			|_____ Logo.png ( โลโก้ของโปรเจค )  
-			|_____ ProjectImage.jpg ( รูปถ่ายงานโดยรวมของโปรเจค )  
-			|_____ Webpage.png ( หน้า website ของโปรเจค )  
+	  		|_____ Hardware_1.jpg ( ภาพส่วนของ Hardware 1 )  
+	  		|_____ Hardware_2.jpg ( ภาพส่วนของ Hardware 2 )  
+	  		|_____ Logo.png ( โลโก้ของโปรเจค )  
+	  		|_____ ProjectImage.jpg ( รูปถ่ายงานโดยรวมของโปรเจค )  
+	  		|_____ Webpage.png ( หน้า website ของโปรเจค )  
 	|_____ SourceCode  
-			|_____ Backend  
-					|_____ main.py ( โค้ดเชื่อมต่อระหว่าง Backend และ Frontend รวมถึงการแก้ไขไฟล์เพื่อเชื่อมกับ Hardware )  
-					|_____ conser.txt ( ไฟล์เชื่อมกันระหว่าง Backend กับ Hardware ถ้าในไฟล์มีข้อมูลเป็นเลข 1 แสดงว่ามีคำสั่งผ่านหน้าเว็บให้อาหารตกลงมา ถ้าเป็น 0 ไม่มีอะไรเกิดขึ้น )  
-					|_____ conmu.txt ( ไฟล์ที่เก็บที่ชื่อ 1 ชื่อ ที่จะเปิดโดยเขียนโดย Backend และอ่านโดย Hardware ว่าจะให้เล่นเพลงอะไร )  
-			|_____ Frontend  
-					|_____ index.html ( โค้ดที่แสดงหน้าเว็บ รวมถึงคำสั่งการเชื่อม Frontend และ Backend บริเวณปุ่มกดต่างๆ)  
-			|_____ Hardware  
-					|_____ firmware ( การตั้งค่าพื้นฐานของแต่ละอุปกรณ์  )  
-							|_____ main.c  
-							|_____ peri.c  
-							|_____ peri.h  
-					|_____ Song  
-							|_____ LoveWithFish.mp3 ( เพลงด้วยรักและปลาทู - มอส ปฏิภาณ )  
-							|_____ NANA.mp3 ( เพลงแมวตัวโปรด - NANA (ft. Pom) )  
-							|_____ PICKME.mp3 ( เพลงPICK ME - PRODUCE48 )  
-					|_____ usb-generic ( ควบคุมการหมุนของ servo ใช้โปรแกรม Arduino ผ่านโปรแกรม VNC Viewer )  
-							|_____ peri.py  
-							|_____ practicum.py  
-							|_____ usbconfig.h  
-							|_____ usb-generic.ino  
-					|_____ control.py ( โปรแกรมใช้ในการควบคุมสวิตช์ เช็คการทำงาน servo และควบคุมเวลาการทำงานของเครื่อง )  
+	  		|_____ Backend  
+	    				|_____ main.py ( โค้ดเชื่อมต่อระหว่าง Backend และ Frontend รวมถึงการแก้ไขไฟล์เพื่อเชื่อมกับ Hardware )  
+	    				|_____ conser.txt ( ไฟล์เชื่อมกันระหว่าง Backend กับ Hardware ถ้าในไฟล์มีข้อมูลเป็นเลข 1 แสดงว่ามีคำสั่งผ่านหน้าเว็บให้อาหารตกลงมา ถ้าเป็น 0 ไม่มีอะไรเกิดขึ้น )  
+	    				|_____ conmu.txt ( ไฟล์ที่เก็บที่ชื่อ 1 ชื่อ ที่จะเปิดโดยเขียนโดย Backend และอ่านโดย Hardware ว่าจะให้เล่นเพลงอะไร )  
+	  		|_____ Frontend  
+	    				|_____ index.html ( โค้ดที่แสดงหน้าเว็บ รวมถึงคำสั่งการเชื่อม Frontend และ Backend บริเวณปุ่มกดต่างๆ)  
+	  		|_____ Hardware  
+	        				|_____ firmware ( การตั้งค่าพื้นฐานของแต่ละอุปกรณ์  )  
+	      						|_____ main.c  
+	      	 					|_____ peri.c  
+	      	 					|_____ peri.h  
+	   				|_____ Song  
+		    					|_____ LoveWithFish.mp3 ( เพลงด้วยรักและปลาทู - มอส ปฏิภาณ )  
+		    					|_____ NANA.mp3 ( เพลงแมวตัวโปรด - NANA (ft. Pom) )  
+		    					|_____ PICKME.mp3 ( เพลงPICK ME - PRODUCE48 )  
+		    			|_____ usb-generic ( ควบคุมการหมุนของ servo ใช้โปรแกรม Arduino ผ่านโปรแกรม VNC Viewer )  
+		  					|_____ peri.py  
+		      					|_____ practicum.py  
+			      				|_____ usbconfig.h  
+				      			|_____ usb-generic.ino  
+	    				|_____ control.py ( โปรแกรมใช้ในการควบคุมสวิตช์ เช็คการทำงาน servo และควบคุมเวลาการทำงานของเครื่อง )  
 	|_____ License.txt  
 	|_____ README.txt  
   
