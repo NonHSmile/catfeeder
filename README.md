@@ -11,7 +11,7 @@ Cat feeder
   Ms.Apichaya   Jarutikorn        6210503896   
   
 ## File details
-catfeeder
+## catfeeder
 	|_____ MemberImages  
 			|_____ 6210500587_Apiwat_Sukthawornpradit.jpg     
 			|_____ 6210503748_Phakinee_Sirisukpoca.jpg  
@@ -84,6 +84,8 @@ catfeeder
   Arduino IDE  
   Editor in Raspberry Pi  
   
+## Schematic
+![170408](https://user-images.githubusercontent.com/63298507/134486715-8650256e-644a-4db1-b4c7-41c709eb8651.jpg)
 
 ## presentation VDO
 https://www.youtube.com/watch?v=1Fk-dulr1qI
