@@ -1,7 +1,8 @@
 ## 01204223 Practicum for Computer Engineering 
-### Department of Computer Engineering Faculty of Engineering Kasetsart University
+Department of Computer Engineering Faculty of Engineering Kasetsart University
 
-## Project name Cat feeder
+## Project name 
+Cat feeder
 
 ## Developers
   Mr.Apiwat     Sukthawornpradit  6210500587
