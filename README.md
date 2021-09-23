@@ -5,10 +5,10 @@ Department of Computer Engineering Faculty of Engineering Kasetsart University
 Cat feeder
 
 ## Developers
-  Mr.Apiwat     Sukthawornpradit  6210500587
-  Ms.Phakinee   Sirisukpoca       6210503748
-  Ms.Sirapat    Inchan            6210503888
-  Ms.Apichaya   Jarutikorn        6210503896
+  Mr.Apiwat     Sukthawornpradit  6210500587   
+  Ms.Phakinee   Sirisukpoca       6210503748   
+  Ms.Sirapat    Inchan            6210503888   
+  Ms.Apichaya   Jarutikorn        6210503896   
   
 ## File details
 catfeeder
